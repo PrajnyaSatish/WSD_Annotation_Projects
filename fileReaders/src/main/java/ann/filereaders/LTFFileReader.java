@@ -13,7 +13,18 @@ import org.xml.sax.*;
 
 public class LTFFileReader {
 
-    public static List<Sample> reader(String filename) {
+    private String docId;
+    private String docLang;
+
+    public String getDocId() {
+        return this.docId;
+    }
+
+    public String getDocLang() {
+        return this.docLang;
+    }
+
+    public List<Sample> reader(String filename) {
 
         try {
 
@@ -53,6 +64,11 @@ public class LTFFileReader {
 //
 //            Document doc = dBuilder.parse(xmlFile);
             doc.getDocumentElement().normalize();
+
+            Node docDetails = doc.getElementsByTagName("DOC").item(0);
+            Element docElements = (Element) docDetails;
+            this.docLang = docElements.getAttribute("lang");
+            this.docId  = docElements.getAttribute("id");
 
             NodeList nList = doc.getElementsByTagName("SEG");
 

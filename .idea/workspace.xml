@@ -113,26 +113,26 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="13" />
-          <entry key="java" value="3212" />
+          <entry key="java" value="3611" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3212" />
+          <entry key="JAVA" value="3611" />
           <entry key="PLAIN_TEXT" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="5" />
-          <entry key="java" value="26" />
+          <entry key="java" value="27" />
           <entry key="xml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="5" />
-          <entry key="JAVA" value="26" />
+          <entry key="JAVA" value="27" />
           <entry key="XML" value="4" />
         </counts>
       </usages-collector>
@@ -143,8 +143,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/annotationProject/src/main/java/ann/annotators/ltfAnnotator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+            <state relative-caret-position="385">
+              <caret line="51" column="104" selection-start-line="51" selection-start-column="104" selection-end-line="51" selection-end-column="104" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -153,14 +153,16 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fileReaders/src/main/java/ann/filereaders/Sample.java">
+        <entry file="file://$PROJECT_DIR$/fileReaders/src/main/java/ann/filereaders/LTFFileReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="1139">
+              <caret line="67" column="29" selection-start-line="67" selection-start-column="29" selection-end-line="67" selection-end-column="29" />
               <folding>
-                <element signature="e#282#283#0" expanded="true" />
-                <element signature="e#314#315#0" expanded="true" />
-                <element signature="e#388#389#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#263#264#0" expanded="true" />
+                <element signature="e#289#290#0" expanded="true" />
+                <element signature="e#387#388#0" expanded="true" />
+                <element signature="e#420#421#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -251,8 +253,8 @@
         <option value="$PROJECT_DIR$/annotationProject/src/main/java/writers/jsonWriter.java" />
         <option value="$PROJECT_DIR$/annotationProject/src/main/java/writers/ltfWriter.java" />
         <option value="$PROJECT_DIR$/annotationProject/src/main/java/utils/FilePermissions.java" />
-        <option value="$PROJECT_DIR$/fileReaders/src/main/java/ann/filereaders/LTFFileReader.java" />
         <option value="$PROJECT_DIR$/annotationProject/src/main/java/sensePredictors/verbnetSensePredictor.java" />
+        <option value="$PROJECT_DIR$/fileReaders/src/main/java/ann/filereaders/LTFFileReader.java" />
         <option value="$PROJECT_DIR$/annotationProject/src/main/java/ann/annotators/ltfAnnotator.java" />
       </list>
     </option>
@@ -409,7 +411,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="sample_project&#9;FILE&#9;file:///home/prajnya/Desktop/WSD/sample_project/pom.xml" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551858612363" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551860331172" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/annotationProject/src/main/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -567,15 +569,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4991708" weight="0.34661835" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39855072" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4991708" visible="true" weight="0.34661835" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39855072" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32958803" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32833958" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50082916" side_tool="true" weight="0.3483146" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32833958" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32729468" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -635,10 +637,10 @@
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/annotationProject/src/main/java/ann/annotators/ltfAnnotator.java</url>
-          <line>39</line>
+          <url>file://$PROJECT_DIR$/fileReaders/src/main/java/ann/filereaders/LTFFileReader.java</url>
+          <line>68</line>
           <properties />
-          <option name="timeStamp" value="13" />
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -801,32 +803,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fileReaders/src/main/java/ann/filereaders/LTFFileReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="21" column="41" lean-forward="true" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar!/com/google/gson/JsonArray.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
           <caret line="48" selection-start-line="48" selection-end-line="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fileReaders/src/main/java/ann/filereaders/Sample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#282#283#0" expanded="true" />
-            <element signature="e#314#315#0" expanded="true" />
-            <element signature="e#388#389#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -888,10 +868,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/fileReaders/src/main/java/ann/filereaders/Sample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#282#283#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#388#389#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fileReaders/src/main/java/ann/filereaders/LTFFileReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1139">
+          <caret line="67" column="29" selection-start-line="67" selection-start-column="29" selection-end-line="67" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#263#264#0" expanded="true" />
+            <element signature="e#289#290#0" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/annotationProject/src/main/java/ann/annotators/ltfAnnotator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+        <state relative-caret-position="385">
+          <caret line="51" column="104" selection-start-line="51" selection-start-column="104" selection-end-line="51" selection-end-column="104" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
