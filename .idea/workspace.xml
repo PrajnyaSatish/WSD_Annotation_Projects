@@ -7,6 +7,7 @@
     <ignored path="$PROJECT_DIR$/fileReaders/target/" />
     <ignored path="$PROJECT_DIR$/fileReaders/annotationProject/target/" />
     <ignored path="$PROJECT_DIR$/annotationProject/target/" />
+    <ignored path="$PROJECT_DIR$/sensePredictors/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,56 +103,50 @@
     <session id="-1933300371">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.26" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.36" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2392" />
+          <entry key="dummy" value="13" />
+          <entry key="java" value="3212" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2392" />
+          <entry key="JAVA" value="3212" />
+          <entry key="PLAIN_TEXT" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="6" />
-          <entry key="xml" value="3" />
+          <entry key="class" value="5" />
+          <entry key="java" value="26" />
+          <entry key="xml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="6" />
-          <entry key="XML" value="3" />
+          <entry key="CLASS" value="5" />
+          <entry key="JAVA" value="26" />
+          <entry key="XML" value="4" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Sample.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/annotationProject/src/main/java/ann/annotators/ltfAnnotator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+            <state relative-caret-position="225">
+              <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fileReaders/src/main/java/ann/filereaders/LTFFileReader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="867">
-              <caret line="51" column="20" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1442#1450#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -160,23 +155,46 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fileReaders/src/main/java/ann/filereaders/Sample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="238">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="e#282#283#0" expanded="true" />
                 <element signature="e#314#315#0" expanded="true" />
-                <element signature="e#349#350#0" expanded="true" />
                 <element signature="e#388#389#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/annotationProject/src/main/java/ann/annotators/ltfAnnotator.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/annotationProject/src/main/java/utils/FilePermissions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+            <state relative-caret-position="561">
+              <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/annotationProject/src/main/java/sensePredictors/verbnetSensePredictor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="31" column="99" selection-start-line="31" selection-start-column="99" selection-end-line="31" selection-end-column="99" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Sample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="71" column="11" selection-start-line="71" selection-start-column="11" selection-end-line="71" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -200,6 +218,9 @@
       <find>Sem</find>
       <find>args</find>
       <find>checkList</find>
+      <find>SensePredictor</find>
+      <find>resu</find>
+      <find>resul</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -221,8 +242,17 @@
         <option value="$PROJECT_DIR$/fileReaders/src/main/java/io/filereaders/Sample.java" />
         <option value="$PROJECT_DIR$/fileReaders/src/main/java/io/filereaders/LTFFileReader.java" />
         <option value="$PROJECT_DIR$/annotationProject/src/main/java/ltfAnnotator.java" />
-        <option value="$PROJECT_DIR$/fileReaders/src/main/java/ann/filereaders/LTFFileReader.java" />
         <option value="$PROJECT_DIR$/fileReaders/src/main/java/ann/filereaders/Sample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/customSensePredictor.java" />
+        <option value="$PROJECT_DIR$/annotationProject/src/main/java/ann/annotators/boltAnnotator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/boltAnnotator.java" />
+        <option value="$PROJECT_DIR$/annotationProject/src/main/java/sensePredictors/SensePredictor.java" />
+        <option value="$PROJECT_DIR$/annotationProject/src/main/java/utils/FilenameFilter.java" />
+        <option value="$PROJECT_DIR$/annotationProject/src/main/java/writers/jsonWriter.java" />
+        <option value="$PROJECT_DIR$/annotationProject/src/main/java/writers/ltfWriter.java" />
+        <option value="$PROJECT_DIR$/annotationProject/src/main/java/utils/FilePermissions.java" />
+        <option value="$PROJECT_DIR$/fileReaders/src/main/java/ann/filereaders/LTFFileReader.java" />
+        <option value="$PROJECT_DIR$/annotationProject/src/main/java/sensePredictors/verbnetSensePredictor.java" />
         <option value="$PROJECT_DIR$/annotationProject/src/main/java/ann/annotators/ltfAnnotator.java" />
       </list>
     </option>
@@ -246,6 +276,29 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="sample_project" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="sample_project" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="sample_project" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="sample_project" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="sample_project" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="sample_project" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -257,6 +310,36 @@
               <item name="annotation" type="b2602c69:ProjectViewProjectNode" />
               <item name="annotation" type="462c0819:PsiDirectoryNode" />
               <item name="annotationProject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="annotation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="annotation" type="462c0819:PsiDirectoryNode" />
+              <item name="annotationProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="annotation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="annotation" type="462c0819:PsiDirectoryNode" />
+              <item name="annotationProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="annotation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="annotation" type="462c0819:PsiDirectoryNode" />
+              <item name="annotationProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="annotation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="annotation" type="462c0819:PsiDirectoryNode" />
+              <item name="annotationProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="annotation" type="b2602c69:ProjectViewProjectNode" />
@@ -296,6 +379,13 @@
             <path>
               <item name="annotation" type="b2602c69:ProjectViewProjectNode" />
               <item name="annotation" type="462c0819:PsiDirectoryNode" />
+              <item name="fileReaders" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="annotation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="annotation" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -315,42 +405,22 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="sample_project" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="sample_project" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-            <path>
-              <item name="sample_project" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="sample_project" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-            <path>
-              <item name="sample_project" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="sample_project" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="sample_project&#9;FILE&#9;file:///home/prajnya/Desktop/WSD/sample_project/pom.xml" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551846763329" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551858612363" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/annotationProject/src/main/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../clearwsd" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/fileReaders/src/main/java/ann/filereaders" />
     </key>
@@ -395,10 +465,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sample_project" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Sample" />
+    <configuration name="ltfAnnotator" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="ann.annotators.ltfAnnotator" />
+      <module name="annotationProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ann.annotators.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ltfAnnotator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ann.annotators.ltfAnnotator" />
+      <module name="annotationProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ann.annotators.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -406,14 +494,12 @@
     <list>
       <item itemvalue="Application.ltfAnnotator" />
       <item itemvalue="Application.CheckBsonProg" />
-      <item itemvalue="JUnit.Sample" />
       <item itemvalue="Application.ltfAnnotator (1)" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.ltfAnnotator (1)" />
         <item itemvalue="Application.CheckBsonProg" />
-        <item itemvalue="JUnit.Sample" />
       </list>
     </recent_temporary>
   </component>
@@ -472,7 +558,7 @@
     <frame x="64" y="-11" width="1857" height="962" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10945274" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18518518" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -481,8 +567,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4991708" visible="true" weight="0.34661835" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39950064" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4991708" weight="0.34661835" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39855072" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32958803" />
@@ -501,7 +587,7 @@
       <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32946378" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28911" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20729685" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -510,7 +596,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4991708" visible="true" weight="0.3483146" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4991708" visible="true" weight="0.34661835" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39950064" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -543,22 +629,16 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Sample.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/boltAnnotator.java</url>
           <line>52</line>
           <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/customSensePredictor.java</url>
-          <line>82</line>
+          <url>file://$PROJECT_DIR$/annotationProject/src/main/java/ann/annotators/ltfAnnotator.java</url>
+          <line>39</line>
           <properties />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/customSensePredictor.java</url>
-          <line>88</line>
-          <properties />
-          <option name="timeStamp" value="6" />
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -625,52 +705,11 @@
     <entry file="jar://$PROJECT_DIR$/../lib/clearwsd.jar!/io/github/clearwsd/type/NlpSequence.class" />
     <entry file="jar://$PROJECT_DIR$/../lib/clearwsd.jar!/io/github/clearwsd/type/FeatureType.class" />
     <entry file="jar://$PROJECT_DIR$/../lib/clearwsd.jar!/io/github/clearwsd/type/DefaultDepTree.class" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/FilePermissions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/CheckBsonProg.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/FileProgress.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../lib/clearwsd.jar!/io/github/clearwsd/type/DepNode.class" />
     <entry file="jar://$PROJECT_DIR$/../lib/clearwsd.jar!/io/github/clearwsd/type/DepTree.class" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/SensePredictor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../lib/clearwsd.jar!/io/github/clearwsd/type/DefaultDepNode.class" />
     <entry file="jar://$PROJECT_DIR$/../lib/clearwsd.jar!/io/github/clearwsd/type/DefaultNlpSequence.class" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/customSensePredictor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/FilenameFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="72" selection-start-line="8" selection-start-column="72" selection-end-line="8" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -681,27 +720,81 @@
     <entry file="file://$PROJECT_DIR$/fileReaders/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/fileReaders/annotationProject/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/annotationProject/src/main/java/ltfWriter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/fileReaders/annotationProject/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/annotationProject/src/main/java/ltfWriter.java" />
     <entry file="file://$PROJECT_DIR$/annotationProject/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Sample.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/FileProgress.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/customSensePredictor.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/boltAnnotator.java" />
+    <entry file="file://$PROJECT_DIR$/sensePredictors/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/annotationProject/src/main/java/sensePredictors/SensePredictor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SensePredictor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/FilenameFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SemlinkSensePredictor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="39" lean-forward="true" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/annotationProject/src/main/java/utils/FilenameFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#326#327#0" expanded="true" />
+            <element signature="e#370#371#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/FilePermissions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/annotationProject/src/main/java/writers/ltfWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-38">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -710,32 +803,95 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/fileReaders/src/main/java/ann/filereaders/LTFFileReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="51" column="20" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
+        <state relative-caret-position="187">
+          <caret line="21" column="41" lean-forward="true" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1442#1450#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar!/com/google/gson/JsonArray.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fileReaders/src/main/java/ann/filereaders/Sample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="238">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="e#282#283#0" expanded="true" />
             <element signature="e#314#315#0" expanded="true" />
-            <element signature="e#349#350#0" expanded="true" />
             <element signature="e#388#389#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar!/org/slf4j/LoggerFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4624">
+          <caret line="291" selection-start-line="291" selection-end-line="291" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar!/org/slf4j/helpers/Util.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/annotationProject/src/main/java/utils/FilePermissions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Sample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="71" column="11" selection-start-line="71" selection-start-column="11" selection-end-line="71" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/github/clearwsd/clearwsd-core/1.0-SNAPSHOT/clearwsd-core-1.0-SNAPSHOT.jar!/io/github/clearwsd/WordSenseClassifier.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/github/clearwsd/clearwsd-stanford/1.0-SNAPSHOT/clearwsd-stanford-1.0-SNAPSHOT.jar!/io/github/clearwsd/parser/StanfordDependencyParser.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/annotationProject/src/main/java/sensePredictors/verbnetSensePredictor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="31" column="99" selection-start-line="31" selection-start-column="99" selection-end-line="31" selection-end-column="99" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/annotationProject/src/main/java/ann/annotators/ltfAnnotator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+        <state relative-caret-position="225">
+          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

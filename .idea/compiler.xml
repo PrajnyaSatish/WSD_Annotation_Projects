@@ -11,5 +11,8 @@
         <module name="sample_project" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="sensePredictors" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

@@ -11,6 +11,7 @@
     <modules>
         <module>fileReaders</module>
         <module>annotationProject</module>
+        <module>sensePredictors</module>
     </modules>
 
     <properties>

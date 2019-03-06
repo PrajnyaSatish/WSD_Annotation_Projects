@@ -20,10 +20,10 @@ class Sample {
 
     public static void main(String[] args)
     {
-        SensePredictor semlinkDepParser = new customSensePredictor();
+        SensePredictor semlinkDepParser = new SemlinkSensePredictor();
         JsonArray resultsOut = new JsonArray();
 
-        File dir = new File("/home/prajnya/Desktop/WSD/data/bolt-annotation");
+        File dir = new File("/home/prajnya/Desktop/SRL_VN_NLP/data/bolt-annotation/word");
 
         // list the files using FileFilter
         File[] files = dir.listFiles(new FilenameFilter());
@@ -82,7 +82,7 @@ class Sample {
             }
         }
         //Write JSON file
-        try (FileWriter writer = new FileWriter("../030811.xml.json")) {
+        try (FileWriter writer = new FileWriter("../WSD_verbnet_1014.json")) {
             FilePermissions fp = new FilePermissions();
 
             Gson gson = new GsonBuilder().setPrettyPrinting().create();

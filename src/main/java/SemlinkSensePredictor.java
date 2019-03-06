@@ -20,16 +20,16 @@ import java.util.function.Function;
 
 import com.google.gson.JsonObject;
 
-public class customSensePredictor extends SensePredictor {
+public class SemlinkSensePredictor extends SensePredictor {
     /* This class is similar to interactiveTestLoop.java class in that it uses a dependency tree to get the senses from a semlink model.
     It returns a parsed string. */
     private NlpParser parser;
     private WordSenseClassifier classifier;
     Function<DepTree, String> formatter;
 
-    String modelPath = "../clearwsd/clearwsd-models/src/main/resources/models/nlp4j-verbnet-1.3.bin";
+    String modelPath = "../clearwsd/clearwsd-models/src/main/resources/models/nlp4j-semlink.bin";
 
-    public customSensePredictor() {
+    public SemlinkSensePredictor() {
         super();
     }
 
